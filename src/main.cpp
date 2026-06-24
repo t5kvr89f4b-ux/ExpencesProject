@@ -1,6 +1,7 @@
 #include <iostream>
-
+#include "sample_code.h"
 int main() {
-    std::cout << "Hello CMake!" << std::endl;
+    int total = addExpense(10, 5);
+    std::cout << "Total expenses: " << total << std::endl;
     return 0;
 }
